@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* comunicação com o link deles, em html */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  color: #190aeb;
+}
+
+/* criação de botão, tamanho, margem, cor do botão, texto, e contorno*/
+button {
+  padding: 5px 30px;
+  margin-top: 10px;
+  background-color: #fff;
+  color: #3fbe25;
+  border: 1px solid #f3d006;
+}
+
+button:hover {
+  background-color: #be2579;
+  color: #fff;
+}
+
+.conteudo {
+  width: 100%;
+  max-width: 500px;
+  padding-top: 50px;
+  margin: auto;
+  height: 100vh;
+  max-height: 900px;
+  background-color: #fff;
+}
+
+.formulario {
+  height: auto;
+  margin: 0px 0px;
+  padding: 5px 10px 50px 10px;
+  background-color: rgb(39, 221, 245);
+  border-radius: 6px;
+}
+
+form {
+  width: auto;
+  margin: 0px 40px;
+}
+
+.cabecalho {
+  color: #be2525;
+  padding: 10px;
+  text-align: center;
+}
+
+.campo {
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.campo input {
+  width: 100%;
+  border: 1px solid #a908f3;
+  height: 30px;
+  padding: 5px 5px;
+}
+
+.campo input:focus {
+  outline: none;
+}
+
+.campo select {
+  width: 100%;
+  border: 1px solid #ee1dd2;
+  height: 30px;
+  background-color: #fff;
+}
+
+.campo select:focus {
+  outline: none;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultado {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #0ceb0c;
+  display: block;
+}
